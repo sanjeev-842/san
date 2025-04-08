@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SPS TechServices - Authorized Dealer of Ashok Leyland Generators">
+    <title>SPS TechServices - Power Solutions Expert</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="C:\SPS Techervices\1.png">
+    
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="Design.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="C:\SPS Techervices\1.png" alt="SPS TechServices Logo" class="company-logo">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#calculator">Power Calculator</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <button id="darkModeToggle" aria-label="Toggle Dark Mode">
+            <i class="fas fa-moon"></i>
+        </button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <!-- Animated Background -->
+        <div class="hero-background">
+            <div class="animated-circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <div class="gradient-overlay"></div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="hero-content">
+            <div class="brand-heading">
+                <h1 class="glitch-text"  data-text="SPS TechServices">
+                    SPS TechServices
+                </h1>
+                <div class="animated-bar"></div>
+            </div>
+
+            <div class="tagline-wrapper">
+                <p class="main-tagline typing-text">Powering Your Success with Reliable Solutions</p>
+                <p class="sub-tagline fade-in-up">Authorized Dealer of Ashok Leyland Generators</p>
+            </div>
+
+            <!-- Animated Stats -->
+            <div class="stats-container">
+                <div class="stat-item fade-in-left">
+                    <span class="counter" data-target="500">0</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-item fade-in-up">
+                    <span class="counter" data-target="98">0</span>
+                    <span class="stat-label">Client Satisfaction %</span>
+                </div>
+                <div class="stat-item fade-in-right">
+                    <span class="counter" data-target="24">0</span>
+                    <span class="stat-label">Hours Support</span>
+                </div>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="cta-container">
+                <button class="cta-primary pulse-effect">
+                    <i class="fas fa-search"></i>
+                    <span>Check Generator Availability</span>
+                </button>
+                <button class="cta-secondary glow-effect">
+                    <i class="fas fa-calculator"></i>
+                    <span>Calculate Power Requirement</span>
+                </button>
+                <button class="cta-tertiary ripple-effect">
+                    <i class="fas fa-phone"></i>
+                    <span>Contact Us</span>
+                </button>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <p>Scroll Down</p>
+            </div>
+        </div>
+
+        <!-- Floating Elements -->
+        <div class="floating-elements">
+            <img src="assets/images/gear1.png" class="floating gear-1" alt="">
+            <img src="assets/images/gear2.png" class="floating gear-2" alt="">
+            <img src="assets/images/bolt.png" class="floating bolt" alt="">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-plug"></i>
+                <h3>Generator Sales</h3>
+                <div class="service-details">
+                    <h4>Industrial Solutions</h4>
+                    <p>High-capacity generators for industrial applications</p>
+                    <h4>Household Solutions</h4>
+                    <p>Reliable backup power for your home</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-truck"></i>
+                <h3>Truck Repair Services</h3>
+                <ul class="repair-list">
+                    <li>Engine Diagnostics</li>
+                    <li>Brake System Repair</li>
+                    <li>Electrical Systems</li>
+                    <li>Preventive Maintenance</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <h2>Our Generators</h2>
+        
+        <!-- Featured Categories -->
+        <div class="featured-categories">
+            <div class="category-card industrial">
+                <img src="C:\SPS Techervices\download 1.png" alt="Industrial Generators">
+                <div class="category-content">
+                    <h3>Industrial Generators</h3>
+                    <p >High-capacity power solutions for industrial applications for more details click here</p>
+                    <button class="category-btn" data-filter="industrial">View Industrial Range</button>
+                </div>
+            </div>
+            <div class="category-card residential">
+                <img src="C:\SPS Techervices\download 3.jpg" alt="Residential Generators">
+                <div class="category-content">
+                    <h3>Residential Generators</h3>
+                    <p>Reliable backup power solutions for your home</p>
+                    <button class="category-btn" data-filter="residential">View Residential Range</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search and Filter Section -->
+        <div class="product-search-section">
+            <div class="search-container">
+                <input type="text" placeholder="Search generators..." id="searchProducts">
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="industrial">Industrial</option>
+                    <option value="residential">Residential</option>
+                </select>
+            </div>
+            <div class="filters">
+                <!-- Filter options will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Best Sellers Section -->
+        
+        <!-- Product Grid -->
+        <div class="product-grid">
+            <!-- Product cards will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Power Calculator Section -->
+    <section id="calculator" class="calculator-section">
+        <div class="calculator-container">
+            <h2>Power Requirement Calculator</h2>
+            <p class="calc-subtitle">Calculate your exact power needs</p>
+
+            <form id="powerCalcForm" class="calculator-form">
+                <!-- Usage Type Selection -->
+                <div class="form-group">
+                    <label>Select Usage Type</label>
+                    <div class="type-buttons">
+                        <div class="type-option">
+                            <input type="radio" id="residential" name="usageType" value="residential" checked>
+                            <label for="residential">
+                                <i class="fas fa-home"></i>
+                                <span>Residential</span>
+                            </label>
+                        </div>
+                        <div class="type-option">
+                            <input type="radio" id="commercial" name="usageType" value="commercial">
+                            <label for="commercial">
+                                <i class="fas fa-building"></i>
+                                <span>Commercial</span>
+                            </label>
+                        </div>
+                        <div class="type-option">
+                            <input type="radio" id="industrial" name="usageType" value="industrial">
+                            <label for="industrial">
+                                <i class="fas fa-industry"></i>
+                                <span>Industrial</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Basic Details -->
+                <div class="form-group">
+                    <label for="areaSize">Total Area (sq. ft.)</label>
+                    <input type="number" id="areaSize" required min="100">
+                </div>
+
+                <div class="form-group">
+                    <label for="acUnits">Number of AC Units</label>
+                    <input type="number" id="acUnits" required min="0" value="0">
+                </div>
+
+                <div class="form-group equipment-group hidden">
+                    <label for="heavyEquipment">Number of Heavy Equipment</label>
+                    <input type="number" id="heavyEquipment" min="0" value="0">
+                </div>
+
+                <div class="form-group">
+                    <label for="hours">Daily Running Hours</label>
+                    <input type="number" id="hours" required min="1" max="24">
+                </div>
+
+                <button type="submit" class="calculate-btn">
+                    Calculate Power Requirement
+                </button>
+            </form>
+
+            <div id="calculationResult" class="result-section"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="section-header">
+                <h2 class="glow-text">Get In Touch</h2>
+                <p class="subtitle">We're here to power your success</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Visit Us</h3>
+                        <p>VPF9+766, Gopalpura Bypass Rd, Chankya Puri Colony, Narayan Vihar, Jaipur, Rajasthan 302026</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Call Us</h3>
+                        <p>+91 8769202000</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Us</h3>
+                        <p>info@spstechservices.com</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Working Hours</h3>
+                        <p>Tuesday	    10am-7:15pm<br>
+                            Wednesday	10am-7:15pm<br>
+                            Thursday    10am-7:15pm<br>                   
+                            Friday	    10am-7:15pm<br>
+                            Saturday	10am-7:15pm<br>
+                            Sunday	Closed<br>
+                            Monday	    10 am - 7:15pm<br>
+                            </p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" required>
+                            <label for="name">Your Name</label>
+                            <span class="focus-border"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" required>
+                            <label for="email">Your Email</label>
+                            <span class="focus-border"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" id="phone" required>
+                            <label for="phone">Phone Number</label>
+                            <span class="focus-border"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="message" required></textarea>
+                            <label for="message">Your Message</label>
+                            <span class="focus-border"></span>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#calculator">Calculator</a></li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-phone"></i> +91 8769202000 </p>
+                <p><i class="fas fa-envelope"></i> info@spstechservices.com</p>
+                <p><i class="fas fa-location-dot"></i> VPF9+766, Gopalpura Bypass Rd, Chankya Puri Colony, Narayan Vihar, Jaipur, Rajasthan 302026</p>
+            </div>
+            <div class="social-links">
+                <h4>Follow Us</h4>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 SPS TechServices. All rights reserved. Authorized Dealer of Ashok Leyland Generators.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Link -->
+        <script src="Body.js"></script>
+    <!-- Google Maps API Script -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
